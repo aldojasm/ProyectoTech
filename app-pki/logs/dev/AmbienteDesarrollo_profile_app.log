@@ -1,0 +1,211 @@
+2019-11-18 22:21:57,846 INFO  [restartedMain] com.cliente.kpi.AppPkiApplication : The following profiles are active: AmbienteDesarrollo
+2019-11-18 22:21:58,445 INFO  [restartedMain] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=8ca98b4b-2cef-39ac-977b-04302c85ef79
+2019-11-18 22:21:58,601 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5122bbb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 22:21:59,443 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8003 (http)
+2019-11-18 22:21:59,453 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2019-11-18 22:21:59,454 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 22:21:59,657 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/kpicliente] : Initializing Spring embedded WebApplicationContext
+2019-11-18 22:21:59,657 DEBUG [restartedMain] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-18 22:21:59,657 INFO  [restartedMain] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 1797 ms
+2019-11-18 22:21:59,727 WARN  [restartedMain] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2019-11-18 22:21:59,727 INFO  [restartedMain] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 22:21:59,732 WARN  [restartedMain] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2019-11-18 22:21:59,732 INFO  [restartedMain] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 22:21:59,750 DEBUG [restartedMain] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-18 22:21:59,752 DEBUG [restartedMain] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-11-18 22:21:59,754 DEBUG [restartedMain] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-18 22:21:59,755 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-11-18 22:21:59,755 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-11-18 22:21:59,756 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-11-18 22:21:59,757 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-11-18 22:21:59,757 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2019-11-18 22:21:59,757 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2019-11-18 22:21:59,758 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-11-18 22:21:59,758 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-11-18 22:21:59,764 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-11-18 22:21:59,764 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-11-18 22:21:59,764 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-11-18 22:21:59,765 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-11-18 22:21:59,765 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-11-18 22:21:59,953 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 22:21:59,960 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-18 22:22:00,026 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-18 22:22:00,062 DEBUG [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-18 22:22:00,073 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-18 22:22:00,191 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2019-11-18 22:22:01,065 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2019-11-18 22:22:01,141 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2019-11-18 22:22:01,470 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 22:22:01,471 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 22:22:01,585 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2019-11-18 22:22:01,585 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2019-11-18 22:22:01,780 INFO  [restartedMain] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2019-11-18 22:22:01,957 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2019-11-18 22:22:01,957 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2019-11-18 22:22:01,957 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2019-11-18 22:22:01,957 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application is null : false
+2019-11-18 22:22:01,958 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2019-11-18 22:22:01,958 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2019-11-18 22:22:01,958 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2019-11-18 22:22:02,243 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : The response status is 200
+2019-11-18 22:22:02,245 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2019-11-18 22:22:02,248 INFO  [restartedMain] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 22:22:02,251 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1574133722250 with initial instances count: 3
+2019-11-18 22:22:02,253 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application SERVICIOKPICLIENTE with eureka with status UP
+2019-11-18 22:22:02,253 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1574133722253, current=UP, previous=STARTING]
+2019-11-18 22:22:02,255 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003: registering service...
+2019-11-18 22:22:02,299 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - registration status: 204
+2019-11-18 22:22:02,310 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8003 (http) with context path '/kpicliente'
+2019-11-18 22:22:02,311 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8003
+2019-11-18 22:22:02,315 INFO  [restartedMain] com.cliente.kpi.AppPkiApplication : Started AppPkiApplication in 5.928 seconds (JVM running for 6.941)
+2019-11-18 22:22:32,415 INFO  [http-nio-8003-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/kpicliente] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 22:22:32,416 INFO  [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2019-11-18 22:22:32,416 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : Detected StandardServletMultipartResolver
+2019-11-18 22:22:32,422 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-11-18 22:22:32,422 INFO  [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 6 ms
+2019-11-18 22:22:32,453 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : GET "/kpicliente/actuator/info", parameters={}
+2019-11-18 22:22:32,462 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-11-18 22:22:32,475 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.resource.ResourceHttpRequestHandler : Resource not found
+2019-11-18 22:22:32,476 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed 404 NOT_FOUND
+2019-11-18 22:22:32,482 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : "ERROR" dispatch for GET "/kpicliente/error", parameters={}
+2019-11-18 22:22:32,484 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2019-11-18 22:22:32,506 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.view.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2019-11-18 22:22:32,517 DEBUG [http-nio-8003-exec-1] org.springframework.web.servlet.DispatcherServlet : Exiting from "ERROR" dispatch, status 404
+2019-11-18 22:24:11,387 INFO  [Thread-1] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application SERVICIOKPICLIENTE with eureka with status DOWN
+2019-11-18 22:24:11,388 WARN  [Thread-1] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1574133851388, current=DOWN, previous=UP]
+2019-11-18 22:24:11,389 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003: registering service...
+2019-11-18 22:24:11,394 INFO  [Thread-1] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 22:24:11,397 INFO  [Thread-1] com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2019-11-18 22:24:11,397 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - registration status: 204
+2019-11-18 22:24:11,399 INFO  [Thread-1] com.netflix.discovery.DiscoveryClient : Unregistering ...
+2019-11-18 22:24:11,406 INFO  [Thread-1] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - deregister  status: 200
+2019-11-18 22:24:11,416 INFO  [Thread-1] com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2019-11-18 22:24:12,447 INFO  [restartedMain] com.cliente.kpi.AppPkiApplication : The following profiles are active: AmbienteDesarrollo
+2019-11-18 22:24:12,708 INFO  [restartedMain] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=8ca98b4b-2cef-39ac-977b-04302c85ef79
+2019-11-18 22:24:12,727 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5122bbb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 22:24:12,750 WARN  [restartedMain] org.apache.tomcat.util.modeler.Registry : The MBean registry cannot be disabled because it has already been initialised
+2019-11-18 22:24:13,177 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8003 (http)
+2019-11-18 22:24:13,177 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2019-11-18 22:24:13,178 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 22:24:13,378 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/kpicliente] : Initializing Spring embedded WebApplicationContext
+2019-11-18 22:24:13,379 DEBUG [restartedMain] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-18 22:24:13,379 INFO  [restartedMain] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 930 ms
+2019-11-18 22:24:13,393 WARN  [restartedMain] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2019-11-18 22:24:13,393 INFO  [restartedMain] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 22:24:13,398 DEBUG [restartedMain] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-18 22:24:13,398 DEBUG [restartedMain] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-11-18 22:24:13,399 DEBUG [restartedMain] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-18 22:24:13,400 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-11-18 22:24:13,400 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-11-18 22:24:13,400 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-11-18 22:24:13,400 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-11-18 22:24:13,400 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2019-11-18 22:24:13,400 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2019-11-18 22:24:13,401 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-11-18 22:24:13,401 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-11-18 22:24:13,405 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-11-18 22:24:13,405 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-11-18 22:24:13,405 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-11-18 22:24:13,405 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-11-18 22:24:13,405 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-11-18 22:24:13,443 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 22:24:13,447 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-18 22:24:13,455 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-18 22:24:13,472 DEBUG [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-18 22:24:13,478 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-18 22:24:13,508 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2019-11-18 22:24:14,150 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2019-11-18 22:24:14,153 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2019-11-18 22:24:14,160 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 22:24:14,161 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 22:24:14,161 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2019-11-18 22:24:14,161 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2019-11-18 22:24:14,224 INFO  [restartedMain] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application is null : false
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2019-11-18 22:24:14,238 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2019-11-18 22:24:14,245 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : The response status is 200
+2019-11-18 22:24:14,246 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2019-11-18 22:24:14,246 INFO  [restartedMain] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 22:24:14,247 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1574133854247 with initial instances count: 4
+2019-11-18 22:24:14,248 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application SERVICIOKPICLIENTE with eureka with status UP
+2019-11-18 22:24:14,249 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1574133854249, current=UP, previous=STARTING]
+2019-11-18 22:24:14,249 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003: registering service...
+2019-11-18 22:24:14,257 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - registration status: 204
+2019-11-18 22:24:14,261 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8003 (http) with context path '/kpicliente'
+2019-11-18 22:24:14,261 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8003
+2019-11-18 22:24:14,262 INFO  [restartedMain] com.cliente.kpi.AppPkiApplication : Started AppPkiApplication in 2.488 seconds (JVM running for 138.888)
+2019-11-18 22:24:14,263 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-18 22:24:26,945 INFO  [Thread-10] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application SERVICIOKPICLIENTE with eureka with status DOWN
+2019-11-18 22:24:26,946 WARN  [Thread-10] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1574133866946, current=DOWN, previous=UP]
+2019-11-18 22:24:26,946 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003: registering service...
+2019-11-18 22:24:26,949 INFO  [Thread-10] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 22:24:26,951 INFO  [Thread-10] com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2019-11-18 22:24:26,954 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - registration status: 204
+2019-11-18 22:24:26,954 INFO  [Thread-10] com.netflix.discovery.DiscoveryClient : Unregistering ...
+2019-11-18 22:24:26,961 INFO  [Thread-10] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - deregister  status: 200
+2019-11-18 22:24:26,973 INFO  [Thread-10] com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+2019-11-18 22:24:27,978 INFO  [restartedMain] com.cliente.kpi.AppPkiApplication : The following profiles are active: AmbienteDesarrollo
+2019-11-18 22:24:28,177 INFO  [restartedMain] org.springframework.cloud.context.scope.GenericScope : BeanFactory id=8ca98b4b-2cef-39ac-977b-04302c85ef79
+2019-11-18 22:24:28,189 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5122bbb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-18 22:24:28,208 WARN  [restartedMain] org.apache.tomcat.util.modeler.Registry : The MBean registry cannot be disabled because it has already been initialised
+2019-11-18 22:24:28,635 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8003 (http)
+2019-11-18 22:24:28,635 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2019-11-18 22:24:28,635 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 22:24:28,841 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/kpicliente] : Initializing Spring embedded WebApplicationContext
+2019-11-18 22:24:28,842 DEBUG [restartedMain] org.springframework.web.context.ContextLoader : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-11-18 22:24:28,842 INFO  [restartedMain] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 862 ms
+2019-11-18 22:24:28,855 WARN  [restartedMain] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+2019-11-18 22:24:28,856 INFO  [restartedMain] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-11-18 22:24:28,860 DEBUG [restartedMain] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-18 22:24:28,861 DEBUG [restartedMain] org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-11-18 22:24:28,862 DEBUG [restartedMain] org.hibernate.validator.internal.engine.resolver.TraversableResolvers : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-11-18 22:24:28,862 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-11-18 22:24:28,862 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-11-18 22:24:28,862 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-11-18 22:24:28,863 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-11-18 22:24:28,863 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2019-11-18 22:24:28,863 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2019-11-18 22:24:28,863 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-11-18 22:24:28,864 DEBUG [restartedMain] org.hibernate.validator.internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2019-11-18 22:24:28,868 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-11-18 22:24:28,868 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-11-18 22:24:28,868 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-11-18 22:24:28,868 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-11-18 22:24:28,868 DEBUG [restartedMain] org.hibernate.validator.internal.engine.ValidatorFactoryImpl : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-11-18 22:24:28,899 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 22:24:28,901 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-11-18 22:24:28,908 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2019-11-18 22:24:28,922 DEBUG [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-11-18 22:24:28,928 DEBUG [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-11-18 22:24:28,950 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : Unable to start LiveReload server
+2019-11-18 22:24:29,557 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+2019-11-18 22:24:29,559 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+2019-11-18 22:24:29,566 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+2019-11-18 22:24:29,566 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+2019-11-18 22:24:29,566 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+2019-11-18 22:24:29,566 INFO  [restartedMain] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+2019-11-18 22:24:29,617 INFO  [restartedMain] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Disable delta property : false
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application is null : false
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Application version is -1: true
+2019-11-18 22:24:29,619 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+2019-11-18 22:24:29,625 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : The response status is 200
+2019-11-18 22:24:29,627 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+2019-11-18 22:24:29,627 INFO  [restartedMain] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-11-18 22:24:29,628 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1574133869628 with initial instances count: 4
+2019-11-18 22:24:29,629 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application SERVICIOKPICLIENTE with eureka with status UP
+2019-11-18 22:24:29,629 INFO  [restartedMain] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1574133869629, current=UP, previous=STARTING]
+2019-11-18 22:24:29,630 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003: registering service...
+2019-11-18 22:24:29,638 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_SERVICIOKPICLIENTE/45HW010462.SOAM.TCS.com:ServicioKpiCliente:8003 - registration status: 204
+2019-11-18 22:24:29,640 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8003 (http) with context path '/kpicliente'
+2019-11-18 22:24:29,640 INFO  [restartedMain] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8003
+2019-11-18 22:24:29,641 INFO  [restartedMain] com.cliente.kpi.AppPkiApplication : Started AppPkiApplication in 2.312 seconds (JVM running for 154.268)
+2019-11-18 22:24:29,642 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
